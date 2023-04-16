@@ -5,7 +5,6 @@ body{
 
 }
 
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -14,7 +13,6 @@ body{
   padding: 50px;
   margin:auto;
   width: 100vw;
- 
 }
 
 .navbar-brand {
@@ -97,7 +95,6 @@ body{
 
 @media only screen and (max-width: 600px) {
   div.title {
-  
     font-size: 40px;
   }
   div.grid-3-colums {
