@@ -13,7 +13,8 @@ body{
   background-color: #ffffff00;
   padding: 50px;
   margin:auto;
-  width: min(60%,90em);
+  width: 100vw;
+ 
 }
 
 .navbar-brand {
@@ -87,14 +88,18 @@ body{
   }
 }
 
-/* If the screen size is 600px or less, set the font-size of <div> to 30px */
-@media only screen and (max-width: 600px) {
-  div.title {
-    font-size: 40px;
-  }
+/* If the screen size is desktop, style with these sets of instructions*/
+@media only screen and (min-width: 1200px) {
+  .navbar{width: min(60%,90em);
+}
 }
 
+
 @media only screen and (max-width: 600px) {
+  div.title {
+  
+    font-size: 40px;
+  }
   div.grid-3-colums {
     font-size: 20px;
     width: min(90%,90em);
