@@ -2,7 +2,7 @@ body{
   font-family: 'quicksand', sans-serif;
   font-weight: 600;
   background-color:rgb(39, 39, 39);
-
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -29,6 +29,13 @@ body{
   padding: 0;
 }
 
+.container-about {
+  max-width: 1200px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+}
 
 .logz{
 
@@ -80,7 +87,7 @@ body{
 
 
 
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 801px) {
   div.title {
     font-size: 80px;
   }
@@ -92,8 +99,10 @@ body{
 }
 }
 
+/* grid for mobile */
+@media only screen and (max-width: 800px) {
 
-@media only screen and (max-width: 600px) {
+
   div.title {
     font-size: 40px;
   }
@@ -103,6 +112,17 @@ body{
   }
   .footer-contact{
     font-size: 10px;
+  }
+
+  .container-about {
+    /* max-width: 1200px; */
+    display: grid;
+    margin: 0 auto;
+    margin-left:10%;
+    margin-right:10%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  
   }
 }
 
@@ -158,13 +178,6 @@ footer {
   font-size: 14px;
 }
 
-.container {
-  max-width: 500px;
-  margin:  auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
 
 .footer-info,
 .footer-links,
@@ -223,15 +236,15 @@ a:hover {
 }
 
 .text {
-  text-align: justify;
+  text-align: left;
   font-size: 18px;
   line-height: 1.5;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 h1 {
   font-size: 30px;
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 p{
@@ -251,6 +264,6 @@ p{
 
   .text {
     font-size: 24px;
-    max-width: 50%;
+    /* max-width: 50%; */
   }
 }
