@@ -1,6 +1,7 @@
 # Process
-The main techniqes i have used to build the foundation of the site was using css grid in a dynamic sense since it can do both collums and rows which was perfect for my concept
+To build the foundation of the site, I utilized CSS grid dynamically as it can handle both columns and rows, which was perfect for my concept.
 
-I tried using percentages whenever i can since they are less likely to have a reponsive issuee with a screen size
+To ensure responsiveness across various screen sizes, I used percentages wherever possible.
 
-I didnt get that muc responses on my servey but one that i got is to chnage the color of the text beace it was a bit to dark with a background so I changed that.
+Although the number of survey responses was limited, I received feedback suggesting that the text color was too dark against the background. In response, I made appropriate changes to improve the overall user experience.
+
